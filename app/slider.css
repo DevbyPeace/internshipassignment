@@ -1,0 +1,23 @@
+/* Pagination dots */
+.swiper-pagination-bullet {
+  background: #a3a3a3;
+  opacity: 1;
+  width: 7px;
+  height: 7px;
+  margin: 0 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+}
+
+.swiper-pagination {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  text-align: center !important;
+}
+
+.swiper {
+  padding-bottom: 2rem;
+}
